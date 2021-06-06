@@ -11,7 +11,7 @@ public class Exercise01 {
         System.out.print("What is your name?");
 
         String name = input.next();
-        System.out.printf("Hello, %s, nice to meet you", name);
-
+        System.out.print("Hello, " + name);
+        System.out.print(", nice to meet you");
     }
 }
